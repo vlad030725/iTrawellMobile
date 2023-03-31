@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iTrawellMobile.AppShell"
+       xmlns:views="clr-namespace:iTrawellMobile.Views"
+       BackgroundColor="#ef233c">
+    <TabBar>
+        <ShellContent Title="Новости" Icon="online.png" ContentTemplate="{DataTemplate views:NewsPage}"></ShellContent>
+        <ShellContent Title="Карта" Icon="map.png" ContentTemplate="{DataTemplate views:MapPage}"></ShellContent>
+        <ShellContent Title="Профиль" Icon="user.png" ContentTemplate="{DataTemplate views:UserPage}"></ShellContent>
+    </TabBar>
+</Shell>
